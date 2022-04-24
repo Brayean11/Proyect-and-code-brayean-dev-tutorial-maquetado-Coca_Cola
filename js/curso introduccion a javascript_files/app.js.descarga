@@ -1,0 +1,127 @@
+/*var nombre = 'brayean';
+console.log(nombre);
+console.log(typeof(nombre));
+
+var edad = 32;
+console.log(edad)
+console.log(typeof(edad));    
+
+edad = 'cinco';
+console.log(edad);
+console.log(typeof(edad));
+
+var sueldo = 1900.99;
+console.log(sueldo);
+console.log(typeof(sueldo));
+
+var tienetrabajo = false;
+console.log(tienetrabajo);
+console.log(typeof(tienetrabajo));
+
+var puestodetrabajo;
+console.log(puestodetrabajo);
+
+puestodetrabajo = null;
+console.log(puestodetrabajo);
+************************************/  
+
+/**************
+ * operadores matematicos +, -, *, /
+ */
+
+/*var edadana, edadmaria, diferenciaedad;
+  var sumaedades,yearana, yearmaria, yearactual;
+
+
+edadana = 34;
+edadmaria = 28;
+yearactual = 2019;
+
+diferenciaedad = edadana - edadmaria;
+sumaedades = edadana + edadmaria;
+
+yearana = yearactual - edadana;
+yearmaria = yearactual -edadmaria;
+
+console.log(diferenciaedad);
+console.log(sumaedades);
+console.log('año en que nacio ana' + yearana);
+console.log('año en que nacio maria' + yearmaria);
+console.log(yearactual * 5);
+console.log(yearactual / 2);*/
+
+/****
+ * operadores logicos, unarios y de asignacion
+ */
+
+//logicos < > <= >= ==  
+/*var edadana, edadmaria, diferenciaedad;
+edadana = 34;
+edadmaria = 28;
+
+var mayorana = !(edadana == edadmaria);
+console.log(mayorana);
+
+//unarios, ++incremento, --decremento
+
+//edadana++
+console.log(++edadana);
+console.log(edadana);
+
+//asignacion, +=, -=, *=, /=, %=
+var a = 12;
+var b = 5;
+
+
+var c = a % 5; // devuelve el resto de una division
+console.log(c);
+a += b;
+console.log(a);  */
+
+/*var nombre = 'brayean';
+var escasado = false;
+
+if (escasado == true){
+     console.log(nombre + ' es casado.')           
+}  else {
+    console.log(nombre + 'es soltero');
+}*/
+
+var nombre = 'brayean';
+var edad = 63;
+
+// edad < 12 es un niño.
+// edad > 11, es < 18, es un adolescente.
+// edad > 17, es < 60, es un adulto.
+// edad > 60 es un anciano.
+
+if (edad < 12){
+    console.log(nombre + 'es un niño.');
+} else if((edad > 11) && (edad < 18)){
+    console.log(nombre + 'es un adolescente.');
+} else if ((edad > 17) && (edad < 60)){
+    console.log(nombre + 'es un adulto.');
+} else {
+    console.log(nombre + 'es un anciano.');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
